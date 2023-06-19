@@ -1,0 +1,147 @@
+{
+    "manifest_version": 3,
+    "name": "Future's Here",
+    "description": "Welcome to the future! Space... technology... computers... and... ALIENS?? WAIT, NO! Oh my... Well... Thank you so much guys! Enjoy the mod!",
+    "version": "1",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "BombArctic"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/Future.png",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff"
+                },
+                "light":
+                {
+                    "image": "wallpaper/Future.png",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#00ff00"
+                }
+            },
+            "theme":
+            {
+                    "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 195,
+                        "s": 100,
+                        "l": 56
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 189,
+                        "s": 27,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 195,
+                        "s": 100,
+                        "l": 56
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 189,
+                        "s": 27,
+                        "l": 16
+                    }
+                }
+            },
+            "background_music":
+            [
+                "music/Layer1.mp3"
+            ],
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/Keyboard1.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/Keyboard1.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/Keyboard1.wav"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/Keyboard1.wav"
+                ]
+            },
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/ImportantClick.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/CloseTab.wav"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/OpenTab.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/Hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/Hover.mp3"
+                ],
+                "CLICK":
+                [
+                    "sounds/Keyboard1.wav"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/FeatureSwitchON.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/FeatureSwitchOFF.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sounds/ImportantClick.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/FeatureSwitchON.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/FeatureSwitchOFF.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/ImportantClick.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/CloseTab.wav"
+                ]
+            }
+        }
+    }
+}
